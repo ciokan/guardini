@@ -1,44 +1,44 @@
 {
-  "name": "guardini",
-  "version": "0.0.1",
-  "description": "Guardini is a package designed for programmers who are looking to sell access to their API endpoints and need a good, battle tested rate-limiter",
-  "main": "guardini.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ciokan/guardini.git"
-  },
-  "keywords": [
-    "rate-limit",
-    "rate",
-    "limit",
-    "brute",
-    "force",
-    "rate",
-    "limiter",
-    "bruteforce",
-    "attack",
-    "middleware",
-    "limit"
-  ],
-  "author": "Romeo Mihalcea",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ciokan/guardini/issues"
-  },
-  "homepage": "https://github.com/ciokan/guardini#readme",
-  "dependencies": {
-    "node-redis-scripty": "0.0.5"
-  },
-  "devDependencies": {
-    "@types/chai": "^3.4.34",
-    "@types/mocha": "^2.2.38",
-    "@types/node": "^7.0.4",
-    "@types/redis": "^0.12.34",
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "redis": "^2.6.5"
-  }
+	"name": "guardini",
+	"version": "0.0.1",
+	"description": "Guardini is a package designed for programmers who are looking to sell access to their API endpoints and need a good, battle tested rate-limiter",
+	"main": "guardini.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ciokan/guardini.git"
+	},
+	"keywords": [
+		"rate-limit",
+		"rate",
+		"limit",
+		"brute",
+		"force",
+		"rate",
+		"limiter",
+		"bruteforce",
+		"attack",
+		"middleware",
+		"limit"
+	],
+	"author": "Romeo Mihalcea",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ciokan/guardini/issues"
+	},
+	"homepage": "https://github.com/ciokan/guardini#readme",
+	"dependencies": {
+		"node-redis-scripty": "0.0.5"
+	},
+	"devDependencies": {
+		"@types/chai": "^3.4.34",
+		"@types/mocha": "^2.2.38",
+		"@types/node": "^7.0.4",
+		"@types/redis": "^0.12.34",
+		"chai": "^3.5.0",
+		"mocha": "^3.2.0",
+		"redis": "^2.6.5"
+	}
 }

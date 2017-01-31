@@ -12,7 +12,6 @@ export default class Guardini {
     redis: RedisClient;
     options: {
         namespace: string,
-        isPrivate: boolean,
         cacheInvalidateTtl: number,
         plans: {
             name: {
@@ -35,7 +34,6 @@ export default class Guardini {
      *      - plans: array of plan objects
      *          - name: the plan name
      *          - limit: what is the plan limit in seconds
-     *      - isPrivate: if this is set to true, guests will be rejected
      * @param planProvider A method that provides a user plan based
      *      on supplied token. We use this only when we don't know the user
      *      plan based on history in order to avoid checking it on every request
