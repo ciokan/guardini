@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"lib": [
+			"es6"
+		],
+		"typeRoots": [
+			"../"
+		]
+	},
+	"files": [
+		"guardini.ts"
+	]
+}
