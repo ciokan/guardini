@@ -1,0 +1,1 @@
+[![CircleCI](https://circleci.com/gh/ciokan/guardini/tree/master.svg?style=svg)](https://circleci.com/gh/ciokan/guardini/tree/master)
