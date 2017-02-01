@@ -84,13 +84,13 @@ const guard = new Guardini(redisClient, {
 	// better outline how the config should be done
 	switch(token){
 		case 'token-1234':
-			return 'basic';
+			callback(null, 'basic');
 			break;
 		case 'token-abcd':
-			return 'ultra';
+			callback(null, 'ultra');
 			break;
 		default:
-			return null;
+			callback(null, null);
 	}
 });
 ```
